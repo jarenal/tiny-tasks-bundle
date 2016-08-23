@@ -1,0 +1,34 @@
+{
+    "name" : "jarenal/tiny-tasks-bundle",
+    "version": "1.0.0",
+    "description" : "Tiny tasks is a bundle compatible with Symfony3 created for testing purposes.",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Jose Antonio Arenal",
+        "email" : "jguidos@hotmail.com"
+    }],
+    "keywords" : [
+        "tiny",
+        "tasks",
+        "manager",
+        "symfony",
+        "bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=5.5.9"
+        "symfony/framework-bundle":"^3.0",
+        "friendsofsymfony/rest-bundle": "^2.0",
+        "jms/serializer-bundle": "^1.1"
+    },
+    "require-dev" : {
+        "doctrine/doctrine-fixtures-bundle": "^2.3"
+    },
+    "autoload" : {
+        "psr-4":{
+            "Jarenal\\TinyTasksBundle\\": ""
+        }
+    }
+}

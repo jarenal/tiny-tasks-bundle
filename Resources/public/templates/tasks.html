@@ -1,0 +1,15 @@
+<script id="task-row" type="text/html">
+<tr class="{{ status }}">
+    <td>{{ id }}</td>
+    <td>{{ description }}</td>
+    <td>{{ state.name }}</td>
+    <td class="col-actions">
+        <a role="button" class="btn btn-default btn-edit-task" aria-label="Left Align" href="#" data-id="{{ id }}" data-description="{{ description }}" data-state="{{ state.id }}">
+            <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+        </a>
+        <a role="button" class="btn btn-default try-delete-task" aria-label="Left Align" href="#" data-idtask="{{ id }}">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </a>
+    </td>
+</tr>
+</script>

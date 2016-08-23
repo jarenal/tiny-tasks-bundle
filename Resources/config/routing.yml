@@ -1,0 +1,8 @@
+jarenal_tiny_tasks_manager_frontend:
+    path: /tasks-manager
+    defaults: { _controller: JarenalTinyTasksBundle:Frontend:index }
+
+jarenal_tiny_tasks_manager_api:
+    resource: "@JarenalTinyTasksBundle/Controller/ApiController.php"
+    type:     rest
+    prefix: /api
