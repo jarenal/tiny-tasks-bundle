@@ -8,7 +8,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```bash
-    $ composer require jarenal/tiny-tasks-manager-bundle dev-master
+    $ composer require jarenal/tiny-tasks-bundle dev-master
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -33,7 +33,7 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
-            new Jarenal\TinyTasksManagerBundle\JarenalTinyTasksManagerBundle(),
+            new Jarenal\TinyTasksBundle\JarenalTinyTasksBundle(),
             new FOS\RestBundle\FOSRestBundle(),
             new JMS\SerializerBundle\JMSSerializerBundle(),
         );
@@ -55,8 +55,8 @@ Step 3: Enable the routing
 
 For to enable the routing add the next lines to your app/config/routing.yml file:
 
-    jarenal_tiny_tasks_manager_bundle:
-        resource: "@JarenalTinyTasksManagerBundle/Resources/config/routing.yml"
+    jarenal_tiny_tasks_bundle:
+        resource: "@JarenalTinyTasksBundle/Resources/config/routing.yml"
 
 Step 4: FosRestBundle settings
 ------------------------------
