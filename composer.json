@@ -1,7 +1,7 @@
 {
     "name" : "jarenal/tiny-tasks-bundle",
     "version": "1.0.0",
-    "description" : "Tiny tasks is a bundle compatible with Symfony3 created for testing purposes.",
+    "description" : "Tiny Tasks Bundle is an demonstrative tasks manager application for Symfony 3 and upper.",
     "type" : "symfony-bundle",
     "authors" : [{
         "name" : "Jose Antonio Arenal",
@@ -12,7 +12,8 @@
         "tasks",
         "manager",
         "symfony",
-        "bundle"
+        "bundle",
+        "example"
     ],
     "license" : [
         "MIT"
