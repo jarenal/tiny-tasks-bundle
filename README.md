@@ -99,12 +99,16 @@ Publishing bundle assets:
     $ php bin/console assets:install --symlink
 ```
 
-Step 7: Clearing cache
+Step 7: Clearing cache and try it!
 ----------------------
 
-Finally we will clear the cache:
+Clear Symfony cache:
 
 ```bash
     $ php bin/console cache:clear
 ```
+
+And finally call to the bundle using the next url:
+
+http://YOUR_SERVER/tiny-tasks
 

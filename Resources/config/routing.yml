@@ -1,5 +1,5 @@
 jarenal_tiny_tasks_frontend:
-    path: /tasks-manager
+    path: /tiny-tasks
     defaults: { _controller: JarenalTinyTasksBundle:Frontend:index }
 
 jarenal_tiny_tasks_api:
