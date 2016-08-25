@@ -24,7 +24,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```bash
-    $ composer require jarenal/tiny-tasks-bundle dev-master
+    $ composer require jarenal/tiny-tasks-bundle
 ```
 
 This command requires you to have Composer installed globally, as explained
