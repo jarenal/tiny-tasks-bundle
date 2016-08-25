@@ -1,3 +1,19 @@
+Welcome to Tiny Tasks Bundle
+============================
+
+I've developed this bundle for testing and demonstration purposes.
+
+Some of the main libraries used for to build this bundle were:
+
+- [Symfony - v3](http://symfony.com) As PHP Framework.
+- [FOSRestBundle - v2.0.0](https://github.com/FriendsOfSymfony/FOSRestBundle) Tools to rapidly develop RESTful API's with Symfony
+- [JMSSerializerBundle - v1.1.0](https://github.com/schmittjoh/JMSSerializerBundle) Easily serialize, and deserialize data of any complexity (supports XML, JSON, YAML)
+- [DoctrineFixturesBundle - v2.3.0](https://github.com/doctrine/DoctrineFixturesBundle) Integrates the Doctrine2 Data Fixtures library into Symfony
+- [jQuery - v1.12.4](https://jquery.com) jQuery is a fast, small, and feature-rich JavaScript library.
+- [jQuery Mustache - v0.2.7](https://github.com/jonnyreeves/jquery-Mustache) jQuery Plugin which makes working light work of using the Mustache templating engine.
+- [Bootstrap - v3.3.6](http://getbootstrap.com) Bootstrap is a HTML, CSS, and JS framework.
+- [Mustache.js - v2.2.1](https://github.com/janl/mustache.js) Minimal templating in JavaScript.
+
 Installation
 ============
 
@@ -55,20 +71,28 @@ Step 3: Enable the routing
 
 For to enable the routing add the next lines to your app/config/routing.yml file:
 
+```
     jarenal_tiny_tasks_bundle:
         resource: "@JarenalTinyTasksBundle/Resources/config/routing.yml"
+```
 
 Step 4: FosRestBundle settings
 ------------------------------
 
 In your app/config/config.yml file add the next lines for to set the default configuration for FosRestBundle:
 
+```
     fos_rest:
         routing_loader:
             default_format: json
+```
 
 Step 5: Database setup
 ----------------------
+
+```
+NOTICE: Please note that this bundle is for testing purposes, so be careful before to execute the next commands in your database.
+```
 
 First enter the parameters of your database if you have not done yet in your app/config/parameters.yml
 
@@ -110,5 +134,5 @@ Clear Symfony cache:
 
 And finally call to the bundle using the next url:
 
-http://YOUR_SERVER/tiny-tasks
+    http://YOUR_SERVER/tiny-tasks
 
